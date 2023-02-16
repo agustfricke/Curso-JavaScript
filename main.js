@@ -1,30 +1,35 @@
-// Variables: Es un contenedor que alacena datos
+/*
 
-// Como se crean?
-// 1- Se Declara(var, let, const)
-// 2- Asignacion
+    Expresiones aritméticas
+    Las Expresiones aritméticas son una combinacion de 
+    operandos (variables, valores, etc) y 
+    operadores (+ - * / % **)
 
-// let edad;
-// edad = 23;
+*/
 
-let edad = 23;
-edad = edad + 1; // Numerico
+let bananas = 10;
 
-let nombre = 'Tech con Agust';
-let nombre2 = "Tech con Agust"; // Strings
+// bananas = bananas + 5
+// bananas = bananas - 5
+// bananas = bananas * 2
+// bananas = bananas / 2
+// bananas = bananas % 3
+// bananas = bananas ** 3
 
-// true & false
-let graduado = true;
-let is_admin = false; // Booleanos
-
-
-// console.log('Tengo', edad, 'años de edad')
-
-document.getElementById('nombre').innerHTML = 
-'Hola mi canal es ' + nombre;
+// Shortcut
+bananas += 5;
+console.log(bananas)
 
 
+/*
 
+En que orden se resuelven las operaciones?
+1- Parentesis ()
+2- Exponentes 
+3- Multiplicacion y divicion
+4- suma y resta
 
+*/
 
-
+let resultado = (2 + 5) * 2 + 5;
+console.log(resultado)
