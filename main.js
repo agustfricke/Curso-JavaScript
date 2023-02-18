@@ -1,15 +1,13 @@
-// Constantes
-// Son variables que no pueden cambiar su valor
+// Math
 
-const precio = 20
-let cantidad;
-let total;
+let a = 5.1;
 
-cantidad = window.prompt('Ingrese la cantidad');
-cantidad = Number(cantidad);
-
+// a = Math.round(a);
+// a = Math.floor(a);
+// a = Math.ceil(a);
+// a = Math.pow(a, 3);
 
 
-total = precio * cantidad;
 
-console.log(total);
+
+console.log(a)
