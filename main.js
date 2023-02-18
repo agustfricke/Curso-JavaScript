@@ -1,22 +1,20 @@
-// Metodos con strings
+// declaraciones if es una forma de tomar deciciones en JavaScript 
+// si (if) una condicion es verdadera hace algo y si no hace otra cosa
 
+// let edad = 23;
 
+// if (edad >= 18) {
+//     window.alert('eres mayor de edad')
+// } else if (edad < 0) {
+//     window.alert('no has nacido aun')
+// } else {
+//     window.alert('eres menor de edad')
+// }
 
-// console.log(nombre.length);
-// console.log(nombre.charAt(2));
-// console.log(nombre.indexOf('A'));
-// console.log(nombre.toUpperCase())
-// console.log(nombre.toLowerCase());
-// console.log(nombre.replaceAll('T', 'O'));
+let es_admin = false;
 
-// Slicing 
-
-nombreCompleto = 'Agustin Fricke';
-
-let nombre;
-let apellido;
-
-nombre = nombreCompleto.slice(0, 7);
-apellido = nombreCompleto.slice(8, 14);
-
-console.log(nombre, apellido);
+if (es_admin) {
+    console.log('Eres admin')
+} else {
+    console.log('No eres admin')
+}
