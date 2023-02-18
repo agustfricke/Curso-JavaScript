@@ -1,11 +1,34 @@
-// = operador de asignacion
-// == operador de comparacion
-// === operador de estricta igualdad compara que sean del mismo tipo de dato
+// Operador Logico NOT 
+// Se usa para convertir al valor booleano opuesto
+// true -> false
+// false -> true
 
-let numero = 55;
+// let edad = 20;
 
-if (numero === 55) {
-    console.log('Son iguales')
+// if (edad > 18) {
+//     console.log('Es mayor de edad');
+// } else {
+//     console.log('No es mayor de edad');
+// }
+
+// if (!(edad > 18)) {
+//     console.log('Es mayor de edad');
+// } else {
+//     console.log('No es mayor de edad');
+// }
+
+// Ejemplo con valor booleano
+
+let es_admin = false
+
+// if (es_admin) {
+//     console.log('Tiene permisos de admin')
+// } else {
+//     console.log('No tiene permisos de admin')
+// }
+
+if (!es_admin) {
+    console.log('Tiene permisos de admin')
 } else {
-    console.log('no son iguales')
+    console.log('No tiene permisos de admin')
 }
