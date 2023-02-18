@@ -1,19 +1,11 @@
-// El or || y el and && dan la posibilidad de comparar mas de una condicion
-// && AND todas las condiciones deben ser verdaderas
-// || OR Solo una condicion debe ser verdadera
+// = operador de asignacion
+// == operador de comparacion
+// === operador de estricta igualdad compara que sean del mismo tipo de dato
 
+let numero = 55;
 
-let cafe = true;
-let computadora = true;
-
-// if (cafe && computadora) {
-//     console.log('Es un exelente dia para programar')
-// } else {
-//     console.log('Es un dia')
-// }
-
-if (cafe || computadora) {
-    console.log('Es un exelente dia para programar')
+if (numero === 55) {
+    console.log('Son iguales')
 } else {
-    console.log('Es un dia')
+    console.log('no son iguales')
 }
