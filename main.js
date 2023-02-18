@@ -1,34 +1,19 @@
-// switch es una declaracion para examinar valores frente a muchos casos
-// se usa ya que es mas eficiente que poner muchos else if {}
-// creemos un ejemplo para que se entienda un poco mejor
+// El or || y el and && dan la posibilidad de comparar mas de una condicion
+// && AND todas las condiciones deben ser verdaderas
+// || OR Solo una condicion debe ser verdadera
 
-// if (edad >= 18) {
-//     window.alert('eres mayor de edad')
-// } else if (edad < 0) {
-//     window.alert('no has nacido aun')
+
+let cafe = true;
+let computadora = true;
+
+// if (cafe && computadora) {
+//     console.log('Es un exelente dia para programar')
 // } else {
-//     window.alert('eres menor de edad')
+//     console.log('Es un dia')
 // }
 
-let edad = window.prompt('Ingrea un numero');
-edad = Number(edad);
-
-switch (true) {
-    case edad >= 50:
-        console.log('Muy alto!')
-        break;
-    case edad >= 40:
-        console.log('Muy alto')
-        break;
-    case edad >= 30:
-        console.log('Muy alto')
-        break;
-    case edad == 20:
-        console.log('correcto')
-        break;
-    case edad <= 19:
-        console.log('Muy bajo')
-        break;
-    default:
-        console.log('No entiendo eso')
+if (cafe || computadora) {
+    console.log('Es un exelente dia para programar')
+} else {
+    console.log('Es un dia')
 }
