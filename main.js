@@ -1,18 +1,22 @@
-// Contador
+// Metodos con strings
 
-let contador = 0;
 
-document.getElementById('sumar').onclick = function () {
-    contador += 1;
-    document.getElementById('contador').innerHTML = contador;
-}
 
-document.getElementById('restar').onclick = function () {
-    contador -= 1;
-    document.getElementById('contador').innerHTML = contador;
-}
+// console.log(nombre.length);
+// console.log(nombre.charAt(2));
+// console.log(nombre.indexOf('A'));
+// console.log(nombre.toUpperCase())
+// console.log(nombre.toLowerCase());
+// console.log(nombre.replaceAll('T', 'O'));
 
-document.getElementById('reset').onclick = function () {
-    contador = 0;
-    document.getElementById('contador').innerHTML = contador;
-}
+// Slicing 
+
+nombreCompleto = 'Agustin Fricke';
+
+let nombre;
+let apellido;
+
+nombre = nombreCompleto.slice(0, 7);
+apellido = nombreCompleto.slice(8, 14);
+
+console.log(nombre, apellido);
