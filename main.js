@@ -1,7 +1,6 @@
-// declaraciones if es una forma de tomar deciciones en JavaScript 
-// si (if) una condicion es verdadera hace algo y si no hace otra cosa
-
-// let edad = 23;
+// switch es una declaracion para examinar valores frente a muchos casos
+// se usa ya que es mas eficiente que poner muchos else if {}
+// creemos un ejemplo para que se entienda un poco mejor
 
 // if (edad >= 18) {
 //     window.alert('eres mayor de edad')
@@ -11,10 +10,25 @@
 //     window.alert('eres menor de edad')
 // }
 
-let es_admin = false;
+let edad = window.prompt('Ingrea un numero');
+edad = Number(edad);
 
-if (es_admin) {
-    console.log('Eres admin')
-} else {
-    console.log('No eres admin')
+switch (true) {
+    case edad >= 50:
+        console.log('Muy alto!')
+        break;
+    case edad >= 40:
+        console.log('Muy alto')
+        break;
+    case edad >= 30:
+        console.log('Muy alto')
+        break;
+    case edad == 20:
+        console.log('correcto')
+        break;
+    case edad <= 19:
+        console.log('Muy bajo')
+        break;
+    default:
+        console.log('No entiendo eso')
 }
