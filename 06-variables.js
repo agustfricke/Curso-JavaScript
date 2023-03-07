@@ -47,6 +47,8 @@ console.log(resultado)
 let nombreCompleto = 'John' + ' ' + 'Doe';
 console.log(nombreCompleto);
 
-
-
-
+// Recien vimos 3 tipos de datos muy importantes en javascript que son los 
+// Booleanos (true, false)
+// Strings: ('hola', "hola")
+// Numericos (1, 2, 4.5 -34)
+// Podemos ver de que tipo de dato son con el typeof
